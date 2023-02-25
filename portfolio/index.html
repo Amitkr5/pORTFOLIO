@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c41ffc0549.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav id="sidemenu">
+                <img src="/image/PORTFOLIO (2).png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB DEVELOPER</p>
+                <H1>Hi, I'm <span>Amit</span><br>kumar From India</H1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/3rd 2.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Amit Kumar I'm from Bihar currently i'm pursuing my B.tec in Computer Science from Global institute of Technology Jaipur I have completed my internship on Full stack development from Celebal Technologie. I have created project
+                        like Spotify clone, Personal Portfolio, Myntra clone with the help of HTML, CSS, JavaScript Technology. I'm self motivated and Discipline person. Now Looking for an opportunity to utilize my skills and knowledge to work for the
+                        growth of the organization.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>WEB DEVELOPER</span><br>HTML,CSS,JAVASCRIPT,NODEJS</li>
+                            <li><span>LANGUAGES</span><br>C, C++, PYTHON, MYSQL</li>
+                            <li><span>UI/UX DESIGNER</span><br>Design a Websites</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>FULL STACK DEVELOPER</span><br>Develop Frontend and backend</li>
+                            <li><span>INTERNSHIPS</span><br>From Celebal Technologie Jaipur</li>
+                            <li><span>UI/UX DESIGNER</span><br>Figma Design a Websites</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019 - 2023</span><br>B.tec In Computer science</li>
+                            <li><span>2017 - 2019</span><br>Intermediate In Mathematics From BSEB</li>
+                            <li><span>2017</span><br>Senior Secondary School From CBSE</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------services--------------------->
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>A web Developer is a programmer who develops worls wide web Application using a client-server model. The Application Typically use HTML,CSS, and JavaScript in the client, and any general purpose programming language in the server.
+                        HTTP is used for communications between client and server.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Graphic Designer</h2>
+                    <p>A graphic design is professional within the graphic design and graphic arts industry who assembeles together image,typography,or motion graphics to create a piece of design. A graphic designer creates the graphics primarily for published,printed,or
+                        electronics media,such as brochures and advertising.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-ghost"></i>
+                    <h2>UI/UX Designer</h2>
+                    <p>User inerface design or user interface engineering is the design of user interfaces for machines and software, such as computers,home appliances,mobile devices, and other electronics devices,with the focus on maximizing usability and
+                        the user experience.</p>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!----------portfolio--------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="Work-list">
+                <div class="Work">
+                    <img src="image/work-1.png" alt="">
+                    <div class="LAYER">
+                        <h3>Social Media Website</h3>
+                        <p>A Social networking service is an online platform which people use to build social networks or social relationships with other people.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="image/work-2.png" alt="">
+                    <div class="LAYER">
+                        <h3>Music Website</h3>
+                        <p>A digital music store is a buisness that sells digital audio files of music recording over the internet.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="image/work-3.png" alt="">
+                    <div class="LAYER">
+                        <h3>Online Shopping Website</h3>
+                        <p>Online shopping is a form of electronics commerce which allows consumers to directly buy goods or services from a seller over the internet using a web browser.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!----------------contact---------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>amitkrsingh515@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>6204145727</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/amit-kumar-4b6061216"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/amit_singh055?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="image/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ amitkumar. Made with <i class="fa-solid fa-heart"></i> by Amit kumar</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemeu.style.right = "-220px";
+        }
+    </script>
+
+    <form name="submit-to-google-sheet">
+        <!----------<input name="email" type="email" placeholder="Email" required> --------->
+        <button type="submit"></button>
+    </form>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzN0AyNeR8A6vqMBwUfATYuulPlTsbi3dwnQ9zprhF4w9YiIMInSyz2SB5GV3aKg_XHQQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function() {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
